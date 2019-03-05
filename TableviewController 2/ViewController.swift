@@ -4,7 +4,6 @@
 //
 //  Created by Ege Sucu on 2019-02-13.
 //  Copyright © 2019 TurkishKit. All rights reserved.
-//
 
 import UIKit
 
