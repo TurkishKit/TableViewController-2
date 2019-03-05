@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D4476AA2220731C0063BD09 /* ArkadasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4476A92220731C0063BD09 /* ArkadasTableViewCell.swift */; };
+		9D4476AA2220731C0063BD09 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4476A92220731C0063BD09 /* TableViewCell.swift */; };
 		9D56776222147C60006FECBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56776122147C60006FECBF /* AppDelegate.swift */; };
 		9D56776422147C60006FECBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D56776322147C60006FECBF /* ViewController.swift */; };
 		9D56776722147C60006FECBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D56776522147C60006FECBF /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D4476A92220731C0063BD09 /* ArkadasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArkadasTableViewCell.swift; sourceTree = "<group>"; };
+		9D4476A92220731C0063BD09 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		9D56775E22147C60006FECBF /* TableviewController 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableviewController 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D56776122147C60006FECBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D56776322147C60006FECBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 				9D56776122147C60006FECBF /* AppDelegate.swift */,
 				9D56776322147C60006FECBF /* ViewController.swift */,
 				9D56776522147C60006FECBF /* Main.storyboard */,
-				9D4476A92220731C0063BD09 /* ArkadasTableViewCell.swift */,
+				9D4476A92220731C0063BD09 /* TableViewCell.swift */,
 				9D56776822147C62006FECBF /* Assets.xcassets */,
 				9D56776A22147C62006FECBF /* LaunchScreen.storyboard */,
 				9D56776D22147C62006FECBF /* Info.plist */,
@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					9D56775D22147C60006FECBF = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -138,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4476AA2220731C0063BD09 /* ArkadasTableViewCell.swift in Sources */,
+				9D4476AA2220731C0063BD09 /* TableViewCell.swift in Sources */,
 				9D56776422147C60006FECBF /* ViewController.swift in Sources */,
 				9D56776222147C60006FECBF /* AppDelegate.swift in Sources */,
 			);
@@ -295,7 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.TableviewController-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -313,7 +314,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.egesucu.TableviewController-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

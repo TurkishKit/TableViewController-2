@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  TableviewController 1
+//  TableviewController 2
 //
 //  Created by Ege Sucu on 2019-02-13.
 //  Copyright © 2019 TurkishKit. All rights reserved.
@@ -12,9 +12,9 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
    
     
 //    Global Değişkenler
-    var arkadaşİsimleri = ["Ali","Ömer","Ayşe"]
-    var arkadaşYaşları = ["19","25","45"]
-    var arkadasResimleri = [UIImage(named: "arkadas1"),UIImage(named: "arkadas2"),UIImage(named: "arkadas3")]
+    var kisiIsimleri = ["Ali","Ömer","Ayşe"]
+    var kisiYaslari = ["19","25","45"]
+    var kisiResimleri = [UIImage(named: "kisi1"),UIImage(named: "kisi2"),UIImage(named: "kisi3")]
     
     
 
@@ -28,21 +28,21 @@ class ViewController: UIViewController, UITableViewDelegate,UITableViewDataSourc
 //    Tabloda kaç hücre olduğunu belirttiğimiz fonksiyon
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        Arkadaş sayısı kadar hücre oluşturuyor.
-        return arkadaşİsimleri.count
+        return kisiIsimleri.count
     }
     
 //    Hücreyi oluşturduğumuz fonksiyon
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 //        Main.storyboard dosyasındaki hücreyi çağırıyoruz.
-        let cell = tableView.dequeueReusableCell(withIdentifier: "arkadaş") as! ArkadasTableViewCell
+        let arkadas = tableView.dequeueReusableCell(withIdentifier: "kisi") as! TableViewCell
 //        Hücreye isimleri yerleştiriyoruz.
-        cell.arkadasIsmi.text = arkadaşİsimleri[indexPath.row]
+        arkadas.isim.text = kisiIsimleri[indexPath.row]
 //        Hücreye yaşları yerleştiriyoruz.
-        cell.arkadasYasi.text = arkadaşYaşları[indexPath.row]
+        arkadas.yas.text = kisiYaslari[indexPath.row]
 //        Hücreye resimleri yerleştiriyoruz.
-        cell.arkadasResmi.image = arkadasResimleri[indexPath.row]
+        arkadas.resim.image = kisiResimleri[indexPath.row]
 //        Hücremiz hazır. Fonksiyona hücremizi çıktı olarak veriyoruz.
-        return cell
+        return arkadas
         
     }
     

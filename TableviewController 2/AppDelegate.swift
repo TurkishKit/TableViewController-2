@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  TableviewController 1
+//  TableviewController 2
 //
 //  Created by Ege Sucu on 2019-02-13.
-//  Copyright © 2019 Ege Sucu. All rights reserved.
+//  Copyright © 2019 TurkishKit. All rights reserved.
 //
 
 import UIKit

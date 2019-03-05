@@ -1,19 +1,19 @@
 //
-//  ArkadasTableViewCell.swift
-//  TableviewController 1
+//  TableViewCell.swift
+//  TableviewController 2
 //
 //  Created by Ege Sucu on 2019-02-22.
-//  Copyright © 2019 Ege Sucu. All rights reserved.
+//  Copyright © 2019 TurkishKit. All rights reserved.
 //
 
 import UIKit
 
-class ArkadasTableViewCell: UITableViewCell {
+class TableViewCell: UITableViewCell {
     
     
-    @IBOutlet weak var arkadasResmi: UIImageView!
-    @IBOutlet weak var arkadasIsmi: UILabel!
-    @IBOutlet weak var arkadasYasi: UILabel!
+    @IBOutlet weak var resim: UIImageView!
+    @IBOutlet weak var isim: UILabel!
+    @IBOutlet weak var yas: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
